@@ -1,0 +1,35 @@
+.registro{
+    background-color: #c8b5d2;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 390px;
+    box-shadow: 5px 5px 5px rgb(76, 9, 83);
+}
+
+#name, #email, #password, #password-confirm{
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px 0px;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 5px 0;
+    margin-top: 10px;
+    background-color: rgba(52, 7, 66, 0.76);
+}

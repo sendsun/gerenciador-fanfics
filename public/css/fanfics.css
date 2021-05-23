@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    background: linear-gradient(90deg, #8c44ba 35%, white 0);
+}
+
+.lado{
+    margin: 25% 0;
+}
+
+.btn-custom{
+    color:white;
+    background: #8c44ba;
+}
+
+.btn-custom:hover{
+    color: white;
+    background: purple;
+}
+
+.btn-custom-2{
+    border: 1px solid #8c44ba;
+    color: #8c44ba;
+    border-radius: 5px;
+}
+
+.btn-custom-2:hover{
+    background: #8c44ba;
+    color: white;
+
+}
+
+
+
+.nova{
+    margin-left: 81%;
+}
+
+#pequena{
+    font-size: 0.5em;
+}
+
+h4{
+    font-family: 'Fredoka One', cursive;
+}
+
+.nome-fanfic{
+    font-family: 'Fredoka One', cursive;
+}
+
+#btn-adicionar{
+    font-family: 'Fredoka One', cursive;
+    background: #8c44ba;
+    color: white;
+    width: max-content;
+    margin-left: 72%;
+    margin-top: -90%;
+}
+
+#link-externo,
+#btn-deletar,
+#btn-editar{
+    width: max-content;
+    height: max-content;
+}
+
+#form-adicionar{
+    margin-top: 20%;
+}
+
+
+label{
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#btn-add{
+    background-color: purple;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    margin-top: 7px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    body{
+        background: linear-gradient(#8c44ba 35%, white 0);
+    }
+    .nova{
+        margin: 0 0 3% 15%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        background: linear-gradient(#8c44ba 35%, white 0);
+    }
+    .nova{
+        margin: 0 0 1% 18%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .lado p{
+        font-size: 0.8em;
+    }
+    .lado h3{
+        font-size: 1.5em;
+    }
+
+    .nova{
+        margin: 0 0 1% 30%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nova{
+        margin-left: 50%
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

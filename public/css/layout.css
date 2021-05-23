@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    margin-right: 15px;
+}
+
+#navbar-topo{
+    background-color: #5e378d;
+}
+#pginicial-texto{
+    font-family: 'Fredoka One', cursive;
+    color: mediumpurple;
+}
+
+#sair-texto{
+    font-family: 'Fredoka One', cursive;
+    color: darkred;
+}
